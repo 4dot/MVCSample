@@ -9,4 +9,4 @@ This is that a simple application to display NYC High Schools List and their SAT
 - All classes were designed for testable and independent.
 
 
-![ScreenShot](./Doc/NYCSchoolAppDataFlow.png)
+![ScreenShot](./Doc/NYCSchoolAppDataFlow.png) 
