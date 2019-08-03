@@ -1,5 +1,5 @@
 ## MVC & MVP Pattern Test : Introduction ##
-This is that a simple application to display NYC High Schools List and their SAT Scores for a Test (MVC and MVP Pattern)
+This is that a simple application to display Sample json format(MVC and MVP Pattern)
 
 - **iOS** support
 - Swift 4.1
@@ -9,4 +9,4 @@ This is that a simple application to display NYC High Schools List and their SAT
 - All classes were designed for testable and independent.
 
 
-![ScreenShot](./Doc/NYCSchoolAppDataFlow.png) 
+![ScreenShot](./Doc/NYCSchoolAppDataFlow1.png) 
