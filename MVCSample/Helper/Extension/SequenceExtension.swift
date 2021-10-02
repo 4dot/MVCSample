@@ -21,7 +21,7 @@ extension Sequence {
             var accumulator = accumulator
             var result :(key:T,values:[Element]) = accumulator.first(where:{ $0.key == element[keyPath:by]}) ?? (key: element[keyPath:by], values:[])
             result.values.append(element)
-            if let index = accumulator.index(where: { $0.key == element[keyPath: by]}){
+            if let index = accumulator.firstIndex(where: { $0.key == element[keyPath: by]}){
                 accumulator.remove(at: index)
             }
             accumulator.append(result)

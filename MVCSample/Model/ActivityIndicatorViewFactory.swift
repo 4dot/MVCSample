@@ -17,7 +17,7 @@ struct ActivityIndicatorViewFactory {
      * @return UIActivityIndicatorView
      */
     static func create(superview: UIView) -> UIActivityIndicatorView {
-        let activityIndicatorView = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+        let activityIndicatorView = UIActivityIndicatorView(style: .gray)
         activityIndicatorView.hidesWhenStopped = true
         activityIndicatorView.translatesAutoresizingMaskIntoConstraints = false
         superview.addSubview(activityIndicatorView)
